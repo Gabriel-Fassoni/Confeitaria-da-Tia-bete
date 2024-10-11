@@ -397,8 +397,68 @@ hr{
 }
 
 .Checkboxdiv{
+  width: 100%;
   display: flex;
-  margin-top: 45px;
+  margin-top: 55px;
+  background-image: url("../Img/fundocoraçãotransparente.png");
+  justify-content: space-evenly;
+  
+  
 }
 
+.bordacheckbox{
+  margin-top: 5px;
+  border: 2px solid #df1f9f;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+
+}
+.bordacheckbox:hover{
+  transform:scale(1.1,1.1);
+  z-index: 1;
+  background:  hsl(320, 100%, 88%);
+  transition: background 0.3s;
+  
+}
+
+.titulocheckbox{
+  border: 2px solid #df1f9f;
+  background-color: rgb(231, 177, 199);
+  margin: 20px;
+  text-align: center;
+}
+
+
+
+.Checkboxdiv2{
+  display: flex;
+  flex-direction: column;
+}
+
+.margem{
+  margin-top: 10px;
+}
+
+.bg-titulo-checkbox{
+
+  background-color: rgb(255, 123, 176);
+
+}
+
+.imgcopo-borda{
+  border: 15px solid rgb(255, 123, 176);
+}
+
+.botao-copo{
+  margin-top: 28%;
+}
+
+a {
+  text-decoration: none;
+  color: black !important;
+}
+
+.copo-texto{
+  font-weight: bolder !important;
+}
 
